@@ -1,5 +1,9 @@
-<p>The originary goal was to fully control an arduino 2009 thru a web control panel without the use of ethernet shield or serial proxy,
-using only a web server (WAMP), a php extensione for the management of serial communication between php and serial port.<p>
-<p>To the application were the addedd a domotic extension and a watchdog extension; the first to start/stop timed schedule anch the second to control the status of a pin value and start/stop alarms; those apps have a graphical map to put the control in specific region of a image in backgroung(e.g. home map).<p>
-<p>For now the only requirements are to use WAMP ver. 2.0i(apache 2.2.11 + php 5.3.0). You can download it from <a href="http://sourceforge.net/projects/wampserver/files/WampServer%202/WampServer%202.0/">HERE</a>).<p>
-<p>The application is still in beta and in strong development so stay tuned.	
+The originary goal was to fully control an Arduino 2009 through a web control panel without the use of ethernet shield or serial proxy, using only a web server (WAMP) and a php extensione for the management of serial communication between php and serial port.
+
+To the application were then added a domotic extension and a watchdog extension; the first to start/stop timed schedule and the second to control the status of a pin value and start/stop alarms(mostly analog control); those apps have a graphical map to put the control in specific region of a image in backgroung(e.g. home map).
+
+For now the only requirements are to use WAMP ver. 2.0i(apache 2.2.11 + php 5.3.0) and Arduino ide 023 (I wiil publish soon sketch for ide 1). You can download WAMP version from <a href="http://sourceforge.net/projects/wampserver/files/WampServer%202/WampServer%202.0/">HERE</a>).
+
+The application is still in beta and in strong development, so stay tuned.	
+
+The project's homepage in on http://leoser.altervista.org/arduino.html (sorry, I'm still translating it in English).
