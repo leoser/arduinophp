@@ -4,6 +4,8 @@ To the application were then added a domotic extension and a watchdog extension;
 
 For now the only requirements are to use WAMP ver. 2.0i(apache 2.2.11 + php 5.3.0) and Arduino ide 023 (I will publish soon sketch for ide 1). You can download WAMP ver. 2.0i from http://sourceforge.net/projects/wampserver/files/WampServer%202/WampServer%202.0/.
 
-The application is still in beta and in strong development, so stay tuned.	
+The application is in ALPHA  and in strong development, so stay tuned.	
+
+There arduino_php.zip has already the php estension source and Arduino sketch inside.
 
 The project's homepage in on http://leoser.altervista.org/arduino.html (sorry, I'm still translating it in English).

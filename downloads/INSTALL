@@ -1,0 +1,29 @@
+GETTING STARTED 
+
+YOU NEED 
+1) WAMP server. My version is the 2.0i (apache 2.2.11 + php 5.3.0). You can download it from http://sourceforge.net/projects/wampserver/files/WampServer%202/WampServer%202.0. I have not tested the app with other versions, for now use this. 
+2) A dynamic DNS service (for remote access to the server).
+3) Com port available (native or usb). 
+4) Arduino IDE 023 (do not use the 1.> ; some classes have been changed and I have to rewrite the sketch
+5) Breadboard and a few LEDs, potentiometer, just to try. 
+
+INSTALLATION 
+0) Install WAMP server 
+With WAMP inactive: 
+1) Extract the zip file to a local folder 
+2) Create a folder in wamp/www (e.g. Arduino) and copy the entire contents of the folder "Arduino" of the zip. 
+3) Copy the file php_simple_serial.dll in the folder  <yourdrive>/wamp/bin/php/php5.3.0/ext 
+4) Open the php.ini file found in the folder <yourdrive>/wamp/bin/php/php5.3.0 
+5) Look for the string "Windows Extensions". There followed a list of extensions. Go to the end of the extensions list and add a new line with this content:  extension = php_simple_serial.dll (with nothing at the end!) 
+	Save and close. 
+6) Repeat the same thing with the file phpForApache.ini placed in the same folder. 
+7) Now run WAMP, click on its icon in the bottom left box and select PHP-> PHP EXTENSION; this will open a list of the estensioni. Look for "php_simple_serial" (should be unchecked) and click on it. Wamp should restart; if you want to close it and reopen it again. 
+8) Now check that there is in the home page, included in extensions loaded list, also php_simple_serial.dll 
+9) Copy of the arduino's sketch where reside your projects (I put it in documents / arduino / arduino_php) 
+10) Set the file data/config.php the com port with which you communicate with Arduino; the default is 'COM1. 
+
+YOU HAVE DONE! 
+
+*** IMPORTANT *** 
+The downloaded extension is compiled for PHP version 5.3.0. Make sure that WAMP has this php version and apache 2.2.11 or pick up the 5.3.0 and install it on WAMP (on web you will find lots of support); WAMP is able to manage different versions of php. 
+If you want to put on your hands and recompile you need to do some operation, nothing complicated, both in VC++ 6 that the php part.  There is this excellent guide http://www.devarticles.com/c/a/Cplusplus/Developing-Custom-PHP-Extensions-Part-1/ online for compilation with VC6 ++.
