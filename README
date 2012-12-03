@@ -6,6 +6,6 @@ For now the only requirements are to use WAMP ver. 2.0i(apache 2.2.11 + php 5.3.
 
 The application is in ALPHA  and in strong development, so stay tuned.	
 
-There arduino_php.zip has already the php estension source and Arduino sketch inside.
+There arduino_php.zip already has the php estension source and Arduino sketch inside.
 
 The project's homepage in on http://leoser.altervista.org/arduino.html (sorry, I'm still translating it in English).
