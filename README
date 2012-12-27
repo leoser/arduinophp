@@ -2,7 +2,7 @@ The originary goal was to fully control an Arduino 2009 through a web control pa
 
 To the application were then added a domotic extension and a watchdog extension; the first to start/stop timed schedule and the second to control the status of a pin value and start/stop alarms(mostly analog control); those apps have a graphical map to put the control in specific region of a image in backgroung(e.g. house map).
 
-For now the only requirements are to use WAMP ver. 2.0i(apache 2.2.11 + php 5.3.0) and Arduino ide 023 (I will publish soon sketch for ide 1). You can download WAMP ver. 2.0i from http://sourceforge.net/projects/wampserver/files/WampServer%202/WampServer%202.0/.
+The only requirements are to use WAMP ver. 2.0i(apache 2.2.11 + php 5.3.0) and Arduino ide 023 (I will publish soon sketch for ide 1). You can download WAMP ver. 2.0i from http://sourceforge.net/projects/wampserver/files/WampServer%202/WampServer%202.0/.
 
 The application is in ALPHA  and in strong development, so stay tuned.	
 
