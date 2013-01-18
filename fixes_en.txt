@@ -16,10 +16,9 @@ Access protection by remote control total (. Htaccess or db) <br/>
 <b> WORKING ON </b> <br/> 
 Applications access "native" for Win Mobile. <br/> 
 Total control remote <br/> 
-Linux version (PERL)<br>
+Linux version (with php_classes)<br>
 
 <b> NEW </b> <br/> 
-18.01.2013 (sketch) Fixed read value call of digital pin from direct command (not supporte before)...uuppps!
 20.12.2012 Multilanguage web pages. <br/> 
 20.12.2012 New android.server.php for the management of remote queries from Android. <br/> 
 20.12.2012 New apk for Android. In testing (unfortunately only with Android Emu and Android x86) and not yet available for download. <br/> 
@@ -61,8 +60,7 @@ Linux version (PERL)<br>
 10.10.2012 New page for status display pin for Home Automation with autorefresh 60 seconds <br/> 
 
 <b> FIXES </b> <br/> 
-18.01.2013 Fixed error on reload of tip box after data changed on schedule table.There was an error on data start and stop display.
-12/20/2012 Fix "random". <br/> 
+12/20/2012 Fix various. <br/> 
 12/08/2012 Fixed error of files update for external access elements of array (null element) <br/> 
 30.11.2012 <font color='red'> <b> CRITICAL </b> </font> Fix errors in the modules for mapping graphics in home automation and watch that prevented proper positioning of the box after saving. <a href = "fixmap.zip"> Download </a> to put the fix in the application folder php <br/> 
 28.11.2012 rearranged syntax site. <br/> 

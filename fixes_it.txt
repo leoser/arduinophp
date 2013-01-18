@@ -17,10 +17,9 @@ Protezione accessi da remoto in controllo totale (con .htaccess o con db)<br/>
 <b>WORKING ON</b><br/>
 Applicazioni accesso "nativo" Win Mobile.<br/>
 Controllo totale da remoto<br/>
-Versione Linux (PERL)<br>
+Versione Linux (con php_classes)<br>
 
 <b>NEW</b><br/>
-18.01.2013 (sketch) Nuovo read value di un digital pin da comando diretto (non era previsto)...uuppps!
 20.12.2012 Multilinguaggio pagine web.<br/> 
 20.12.2012 Nuovo android.server.php per la gestione delle query remote da android.<br/>
 20.12.2012 Nuovo apk per Android. In fase di testing (purtroppo solo con Android Emu e Android x86) e non ancora disponibile per il download.<br/>
@@ -62,7 +61,6 @@ Versione Linux (PERL)<br>
 10.10.2012 Nuova pagina per visualizzazione stato pin per Domotica con autorefresh 60 secondi<br/>
 
 <b>FIXES</b><br/>
-18.01.2013 Fixed errore nel tip box della tabella dello schedule dopo una modifica dati.Le date start/stop non erano visualizzate.
 20.12.2012 Fix vari.<br/> 
 08.12.2012 Fixed errore sull'update dei file per accesso esterno degli elementi di array (null element)<br/>
 30.11.2012 <font color="red"><b>CRITICO</b></font> Fix errori nei moduli per la mappatura grafica in domotica e watch che impediva il corretto posizionamento dei box dopo il salvataggio.<a href="fixmap.zip">Download </a>della fix da mettere nella cartella dell'applicazione php<br/>
